@@ -1,6 +1,6 @@
-Structure of Papers\
-
 ```
+.
+├── command.sh
 ├── engineering
 │   ├── 3d reconstruction
 │   └── semantic segmentation
@@ -26,6 +26,10 @@ Structure of Papers\
 │       └── ViT (ICLR2021).pdf
 ├── README.md
 ├── survey
+│   ├── SemanticSeg
+│   │   └── Schwonberg_Domain_Generalization_for_Semantic_Segmentation_A_Survey_CVPRW_2025_paper.pdf
+│   ├── VideoGen
+│   │   └── A_Comprehensive_Survey_on_Text-to-Video_Generation.pdf
 │   └── VLM
 │       └── Vision-Language_Models_for_Vision_Tasks_A_Survey.pdf
 └── tool
@@ -33,4 +37,6 @@ Structure of Papers\
     ├── deformable attention.pdf
     ├── Deformable Convolutional Networks.pdf
     └── patch merging.pdf
+
+12 directories, 26 files
 ```
