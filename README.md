@@ -3,6 +3,9 @@
 ├── command.sh
 ├── engineering
 │   ├── 3d reconstruction
+│   │   ├── 3dgs.pdf
+│   │   ├── nerf.pdf
+│   │   └── vggt.pdf
 │   └── semantic segmentation
 │       ├── DeepLabv3+.pdf
 │       ├── DETR.pdf
@@ -26,6 +29,8 @@
 │       └── ViT (ICLR2021).pdf
 ├── README.md
 ├── survey
+│   ├── DG
+│   │   └── Domain_Generalization_A_Survey.pdf
 │   ├── SemanticSeg
 │   │   └── Schwonberg_Domain_Generalization_for_Semantic_Segmentation_A_Survey_CVPRW_2025_paper.pdf
 │   ├── VideoGen
@@ -38,5 +43,5 @@
     ├── Deformable Convolutional Networks.pdf
     └── patch merging.pdf
 
-12 directories, 26 files
+13 directories, 30 files
 ```
