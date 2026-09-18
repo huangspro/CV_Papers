@@ -16,9 +16,9 @@
 │   └── Text_VPR
 │       ├── DialogueVPR.pdf
 │       ├── GeoBridge.pdf
-│       ├── Geotext-1652.pdf
+│       ├── Geotext-1652 dataset.pdf
 │       ├── LaVPR.pdf
-│       ├── LVLM-empowered multi-modal representation learning for visual place recognition. arXiv preprint, 2024..pdf
+│       ├── LVLM multi-modal representation for vpr.pdf
 │       ├── ProGen.pdf
 │       ├── Tell me where you are Multimodal LLMs Meet Place Recognition.pdf
 │       ├── Text2loc.pdf
@@ -39,6 +39,9 @@
 │   ├── U-net (MICCAI2015).pdf
 │   ├── vgg16 (ICLR2015).pdf
 │   └── ViT (ICLR2021).pdf
+├── Note
+│   ├── Note1.md
+│   └── Note2.md
 ├── README.md
 ├── survey
 │   └── VLM
@@ -49,5 +52,5 @@
     ├── Deformable Convolutional Networks.pdf
     └── patch merging.pdf
 
-9 directories, 40 files
+10 directories, 42 files
 ```
