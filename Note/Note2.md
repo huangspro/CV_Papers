@@ -51,3 +51,18 @@
        - Pass the 4 textual queries and 4 images representationss into a Cascaded Cross-Attention Cosine Alignment (CCCA) module, which performs cross attention between images and texts
        - Calculate the similarity between 4 text discriptions and the 4 iamge entries
        - Implement the process on all entries in the database and get tht candidates.
+
+7. ProGEO: Generating Prompts through Image-Text Contrastive Learning for Visual Geo-localization
+  - **Method**:
+    - **Stage1**:
+      - initialize a learnable prompt embedding, and then encode the prompt into a vector. 
+      - align the prompt represtion with images represention through Contrastive learining loss.
+      - note that at Stage1 the text encoder and the image encoder are both frozen, only the prompt are trained
+
+    - **Stage2**:
+      - both the text encoder and learned prompt are frozen, and only the image encoder are trained
+      - using 3 kind of loss to narrow the distance between representions of images and text prompts.
+
+  - **core idea**:
+    - firstly train a prompt as a **Teacher**
+    - train the image encoder to fit the **Teacher** 
