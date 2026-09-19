@@ -1,6 +1,5 @@
 ```
 .
-├── command.sh
 ├── engineering
 │   ├── 3d reconstruction
 │   │   ├── 3dgs.pdf
@@ -42,7 +41,6 @@
 ├── Note
 │   ├── Note1.md
 │   └── Note2.md
-├── README.md
 ├── survey
 │   └── VLM
 │       └── Vision-Language_Models_for_Vision_Tasks_A_Survey.pdf
@@ -52,5 +50,5 @@
     ├── Deformable Convolutional Networks.pdf
     └── patch merging.pdf
 
-10 directories, 42 files
+10 directories, 40 files
 ```

@@ -53,16 +53,23 @@
        - Implement the process on all entries in the database and get tht candidates.
 
 7. ProGEO: Generating Prompts through Image-Text Contrastive Learning for Visual Geo-localization
-  - **Method**:
-    - **Stage1**:
-      - initialize a learnable prompt embedding, and then encode the prompt into a vector. 
-      - align the prompt represtion with images represention through Contrastive learining loss.
-      - note that at Stage1 the text encoder and the image encoder are both frozen, only the prompt are trained
+   - **Method**:
+     - **Stage1**:
+       - initialize a learnable prompt embedding, and then encode the prompt into a vector. 
+       - align the prompt represtion with images represention through Contrastive learining loss.
+       - note that at Stage1 the text encoder and the image encoder are both frozen, only the prompt are trained
 
-    - **Stage2**:
-      - both the text encoder and learned prompt are frozen, and only the image encoder are trained
-      - using 3 kind of loss to narrow the distance between representions of images and text prompts.
+     - **Stage2**:
+       - both the text encoder and learned prompt are frozen, and only the image encoder are trained
+       - using 3 kind of loss to narrow the distance between representions of images and text prompts.
 
-  - **core idea**:
-    - firstly train a prompt as a **Teacher**
-    - train the image encoder to fit the **Teacher** 
+   - **core idea**:
+     - firstly train a prompt as a **Teacher**
+     - train the image encoder to fit the **Teacher** 
+    
+8. Where am I? Cross-View Geo-localization with Natural Language Descriptions
+   - **Method**:
+     - when training, encode text and images queries into the same embedding space and execute contrastive learning
+     - when predicting, get the top-k candidates, and then use LLM to compare the heat map of the output of the text encoder with image embeddings, and give a confidence score.
+
+

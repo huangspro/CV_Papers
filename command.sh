@@ -1,7 +1,7 @@
 git pull
 
 echo '```' > README.md
-tree -L 10 -I '__pycache__|__init__.py' >> README.md
+tree -L 10 -I 'command.sh|README.md' >> README.md
 echo '```' >> README.md
 
 git add .
