@@ -2,9 +2,9 @@
 .
 ├── engineering
 │   ├── 3d reconstruction
-│   │   ├── 3dgs.pdf
-│   │   ├── nerf.pdf
-│   │   └── vggt.pdf
+│   │   ├── 3dgs (siggraph, 2023).pdf
+│   │   ├── nerf (eccv, 2020).pdf
+│   │   └── vggt (cvpr, 2025).pdf
 │   ├── semantic segmentation
 │   │   ├── DeepLabv3+.pdf
 │   │   ├── DETR.pdf
@@ -13,19 +13,19 @@
 │   │   ├── MaskFormer.pdf
 │   │   └── SegFormer.pdf
 │   └── Text_VPR
-│       ├── DialogueVPR.pdf
-│       ├── GeoBridge.pdf
-│       ├── Geotext-1652 dataset.pdf
-│       ├── LaVPR.pdf
-│       ├── LVLM multi-modal representation for vpr.pdf
-│       ├── ProGen.pdf
-│       ├── Tell me where you are Multimodal LLMs Meet Place Recognition.pdf
-│       ├── Text2loc.pdf
-│       ├── Text2Pos.pdf
-│       ├── Text4VPR.pdf
-│       ├── TextInPlace.pdf
-│       ├── Where am I_Cross-View Geo-localization with Natural Language Descriptions.pdf
-│       └── “Where am I_”Scene Retrieval with Language.pdf
+│       ├── DialogueVPR (cvpr, 2026).pdf
+│       ├── GeoBridge (cvpr 2026).pdf
+│       ├── Geotext-1652 dataset (eccv, 2024).pdf
+│       ├── LaVPR (eccv, 2026).pdf
+│       ├── LVLM multi-modal representation for vpr (arxiv, 2024).pdf
+│       ├── ProGen (icann, 2024).pdf
+│       ├── Tell me where you are (arxiv, 2024).pdf
+│       ├── Text2loc (cvpr, 2024).pdf
+│       ├── Text2Pos (cvpr, 2022).pdf
+│       ├── Text4VPR (arxiv, 2025).pdf
+│       ├── TextInPlace (arxiv, 2025).pdf
+│       ├── “Where am I  (arxiv, 2024).pdf
+│       └── Where am I (iccv, 2025).pdf
 ├── learn
 │   ├── CLIP (ICML2021).pdf
 │   ├── DenseNet (CVPR2017).pdf
@@ -40,7 +40,8 @@
 │   └── ViT (ICLR2021).pdf
 ├── Note
 │   ├── Note1.md
-│   └── Note2.md
+│   ├── Note2.md
+│   └── Note3.md
 ├── survey
 │   └── VLM
 │       └── Vision-Language_Models_for_Vision_Tasks_A_Survey.pdf
@@ -50,5 +51,5 @@
     ├── Deformable Convolutional Networks.pdf
     └── patch merging.pdf
 
-10 directories, 40 files
+10 directories, 41 files
 ```
