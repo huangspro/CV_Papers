@@ -1,3 +1,4 @@
+2026-9-19
 # Brief Summary of text-VPR papers
 
 1. LVLM-empowered Multi-modal Representation Learning for Visual Place Recognition
