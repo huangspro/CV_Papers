@@ -74,3 +74,17 @@
      - when predicting, get the top-k candidates, and then use LLM to compare the heat map of the output of the text encoder with image embeddings, and give a confidence score.
 
 
+## A Quick look
+9. “Where am I?” Scene Retrieval with Language
+
+10. TextInPlace: Indoor Visual Place Recognition in Repetitive Structures with Scene Text Spotting and Verification
+   - **core idea**:
+     - utilizing indoor textual signs to augment vpr search
+     
+11. Tell Me Where You Are: Multimodal LLMs Meet Place Recognition
+   - **core idea**:
+     - using LLM reasoning to rerank vpr result, taking advantage of the high-level semantic information
+     
+12. Text2Pos: Text-to-Point-Cloud Cross-Modal Localization
+
+13. Text2Loc: 3D Point Cloud Localization from Natural Language
